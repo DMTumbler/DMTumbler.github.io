@@ -1,27 +1,75 @@
 <!--TODO: add more content to this page.-->
 <!DOCTYPE >
-<html>
-  <div class="content">
-    <head>
-      <meta charset="utf-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <link rel="stylesheet" type="text/css" href="styles.css" />
-      <title>Home</title>
-    </head>
-    <body>
-        <img
-          class="logo"
-          src="isla-black-nobg.png"
-          alt="Isla Logo of a food truck"
-        />
-        <div class="ribbon">
-          <div>
-            <a href="index.html"><button class="button">Home</button></a>
-            <a href="about-us.html"><button class="button">About Us</button></a>
-            <a href="blog.html"><button class="button">Blog</button></a>
-            <a href="product-page.html"><button class="button">Our Product</button></a>
-            <a href="contact-us.html"><button class="button">Contact Us</button></a>
-          </div>
-        </div>
-      <hr>
+<html lang="en">
+
+
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" type="text/css" href="styles.css"/>
+    <title>Home</title>
+</head>
+<body>
+<main class="content">
+    <img
+            class="logo"
+            src="Isla-black-nobg.png"
+            alt="Isla Logo of a food truck"
+    />
+    <div class="ribbon">
+        <ul class="navLinks">
+            <li>
+                <a href="index.html">
+                    <button class="button">Home</button>
+                </a>
+            </li>
+            <li>
+                <a href="about-us.html">
+                    <button class="button">About Us</button>
+                </a>
+            </li>
+            <li>
+                <a href="blog.html">
+                    <button class="button">Blog</button>
+                </a>
+            </li>
+            <li>
+                <a href="product-page.html">
+                    <button class="button">Our Product</button>
+                </a>
+            </li>
+            <li>
+                <a href="contact-us.html">
+                    <button class="button">Contact Us</button>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <hr>
+    <div class="main-text">
+        <h1>Contact Us</h1>
+        <p>Feel free to contact us for more information about ISLA and the products that we provide.</p>
+        <form>
+            <fieldset>
+                <label for="name">Name</label>
+                <br>
+                <input type="text" name="name" id="name">
+                <br>
+                <label for="email">E-mail</label>
+                <br>
+                <input type="email" name="name" id="email">
+                <br>
+                <label for="subject">Subject</label>
+                <br>
+                <input type="text" name="subject" id="subject">
+                <br>
+                <label for="message">Type your message</label>
+                <br>
+                <textarea id="message" rows="10" style="width: 60%"></textarea>
+                <br>
+            </fieldset>
+        </form>
+    </div>
+</main>
+</body>
 </html>
