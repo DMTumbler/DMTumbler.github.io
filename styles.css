@@ -3,18 +3,30 @@ body {
   background: rgb(61, 90, 128);
 }
 
-.content {
-  border-radius: 10px;
-  width: 95%;
-  margin: auto;
-  background: rgb(135, 211, 248);
-  box-shadow:
-    -5px 0 7px 1px #333,
-    5px 0 7px 1px #333;
+fieldset {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: none;
+}
+fieldset label {
+  font-weight: bold;
+  margin-bottom: -10px;
 }
 
-fieldset {
+fieldset input {
   border: none;
+  border-bottom: 1px solid #902d41;
+  font-size: 18px;
+  width: 60%;
+}
+
+fieldset textarea {
+  border: none;
+  border-bottom: 1px solid #902d41;
+  font-size: 18px;
+  width: 80%;
 }
 
 hr {
@@ -24,6 +36,16 @@ hr {
   margin-top: 30px;
   box-shadow: 0 1px 2px 1px #333;
 }
+.content {
+  border-radius: 10px;
+  width: 95%;
+  margin: auto;
+  background: rgb(135, 211, 248);
+  box-shadow:
+          -5px 0 7px 1px #333,
+          5px 0 7px 1px #333;
+}
+
 .featured-image {
   display: flex;
   width: 50%;
